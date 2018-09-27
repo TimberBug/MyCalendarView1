@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 日历定义的一些颜色 -->
+    <color name="normal_day">#ff999999</color>
+    <color name="selected_day_background">#2b5fb6</color>
+    <color name="selected_end_day_background">#b92b26</color>
+    <color name="current_day_background">#FA9F46</color>
+    <color name="selected_day_text">#FFFFFF</color>
+    <color name="invalid_day_background">#c0c0c0</color>
+</resources>

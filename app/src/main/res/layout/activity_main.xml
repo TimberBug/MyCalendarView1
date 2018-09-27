@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_select_single"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择单天" />
+
+        <Button
+            android:id="@+id/btn_select_multi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择多天" />
+
+        <Button
+            android:id="@+id/btn_select_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="弹出dialog" />
+
+    </LinearLayout>
+
+    <com.suke.calendarview.DayPickerView
+        android:id="@+id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        app:calendarHeight="500dp"
+        app:colorBusyDaysBg="@color/orange"
+        app:colorBusyDaysText="@color/orange"
+        app:colorCurrentDay="@color/colorAccent"
+        app:colorInValidDaysBg="@color/orange"
+        app:colorInValidDaysText="@color/gray"
+        app:colorNormalDayText="@color/black"
+        app:colorPreviousDayText="@color/gray"
+        app:colorSelectedDayBackground="@color/dark_blue"
+        app:colorSelectedDayText="@color/selected_day_text"
+        app:colorSelectedEndDayBackground="@color/red"
+        app:colorWeekText="@color/black"
+        app:colorYearMonthText="@color/black"
+        app:currentDayBackground="@color/dark_gray"
+        app:enablePreviousDay="false"
+        app:headerMonthHeight="100dp"
+        app:selectedDayRadius="20dp"
+        app:textSizeDay="20sp"
+        app:textSizeTag="14sp"
+        app:textSizeWeek="22sp"
+        app:textSizeYearMonth="24sp" />
+
+</LinearLayout>
