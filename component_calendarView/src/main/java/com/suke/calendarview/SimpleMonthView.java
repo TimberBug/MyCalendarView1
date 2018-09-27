@@ -499,6 +499,7 @@ class SimpleMonthView extends View {
         mSelectedDayBgPaint.setFakeBoldText(true);
         mSelectedDayBgPaint.setAntiAlias(true);
         mSelectedDayBgPaint.setColor(mSelectedDaysBgColor);
+        mSelectedDayBgPaint.setTextSize(TAG_TEXT_SIZE);
         mSelectedDayBgPaint.setTextAlign(Align.CENTER);
         mSelectedDayBgPaint.setStyle(Style.FILL);
         mSelectedDayBgPaint.setAlpha(SELECTED_CIRCLE_ALPHA);
@@ -508,6 +509,7 @@ class SimpleMonthView extends View {
         mSelectedEndDayBgPaint.setFakeBoldText(true);
         mSelectedEndDayBgPaint.setAntiAlias(true);
         mSelectedEndDayBgPaint.setColor(mSelectedEndDaysBgColor);
+        mSelectedEndDayBgPaint.setTextSize(TAG_TEXT_SIZE);
         mSelectedEndDayBgPaint.setTextAlign(Align.CENTER);
         mSelectedEndDayBgPaint.setStyle(Style.FILL);
         mSelectedEndDayBgPaint.setAlpha(SELECTED_CIRCLE_ALPHA);

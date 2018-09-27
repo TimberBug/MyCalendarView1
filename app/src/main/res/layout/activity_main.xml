@@ -7,36 +7,12 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/btn_select_single"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="选择单天" />
-
-        <Button
-            android:id="@+id/btn_select_multi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="选择多天" />
-
-        <Button
-            android:id="@+id/btn_select_dialog"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="弹出dialog" />
-
-    </LinearLayout>
-
     <com.suke.calendarview.DayPickerView
         android:id="@+id/calendar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="20dp"
+        android:padding="20dp"
         app:calendarHeight="500dp"
         app:colorBusyDaysBg="@color/orange"
         app:colorBusyDaysText="@color/orange"
