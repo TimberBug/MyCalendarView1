@@ -2,6 +2,9 @@
 一个日期选择控件，可以选单天，也可以范围选择，可应用在酒店入住离店日期的选择等
 [![](https://jitpack.io/v/TimberBug/MyCalendarView1.svg)](https://jitpack.io/#TimberBug/MyCalendarView1)
 
+# 效果演示
+![image](https://github.com/TimberBug/MyCalendarView1/blob/master/app/src/main/res/raw/performance.gif)
+
 # 使用方法
 ### 1.在工程目录下的gradle文件中添加如下：
     allprojects {
